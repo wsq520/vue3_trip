@@ -1,0 +1,26 @@
+{
+  "name": "vue3_trip",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.22",
+    "underscore": "^1.13.6",
+    "vant": "^3.6.3",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "less": "^4.1.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "unplugin-vue-components": "^0.22.7",
+    "vite": "^3.0.9"
+  }
+}
