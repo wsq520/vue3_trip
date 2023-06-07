@@ -5,10 +5,6 @@
         <component :is="props.Component"></component>
       </keep-alive>
     </router-view>
-
-    <!-- <keep-alive includes="home">
-      <router-view />
-    </keep-alive> -->
     <TabBar v-show="!route.meta.hideTabBar" />
     <loading />
   </div>
